@@ -4,7 +4,24 @@ from collections import Counter
 keywords = [
     "machine learning", "deep learning", "neural networks", "large language model",
     "LLM", "transformer", "attention mechanism", "transfer learning",
-    "reinforcement learning", "RL", "supervised learning", "unsupervised learning",
+    "reinforcement learning", "RL", "supervised learning", "unsupervised learning",    "latent dirichlet allocation", "LDA", "graph neural network", "GNN",
+        "embedding", "multimodal learning", "federated learning", "FL",
+        "transferability", "zero-shot learning", "few-shot learning", "active learning",
+        "human-in-the-loop", "data augmentation", "domain adaptation",
+        "knowledge distillation", "prompt tuning", "fine-tuning", "instruction tuning",
+        "alignment", "model interpretability", "bias mitigation",
+        "algorithmic transparency", "simulation-based inference",
+        "probabilistic programming", "Bayesian inference", "variational inference",
+        "Bayesian networks", "gibbs sampling", "Markov chain Monte Carlo",
+        "Markov decision process", "partially observable Markov decision process",
+        "hidden Markov model", "q-learning", "policy gradient",
+        "stochastic gradient descent", "logistic regression", "support vector machine",
+        "random forest", "k-means", "decision tree", "ensemble learning",
+        "dimensionality reduction", "principal component analysis",
+        "latent semantic analysis", "robotics", "computer vision",
+        "unsupervised clustering", "evolutionary algorithms",
+        "particle swarm optimization", 
+
     
 ]
 
@@ -34,3 +51,4 @@ def yearly_dynamics(articles):
     print("\nYearly dynamics (selected articles):")
     for year in sorted(counter):
         print(f"  {year}: {counter[year]} articles")
+
